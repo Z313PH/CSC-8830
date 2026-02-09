@@ -1,0 +1,13 @@
+Spatial vs Frequency Blur Comparison
+Kernel: box
+ksize: 21
+
+--- Over full image ---
+Max abs error: 164.285714
+MSE: 331.633350
+PSNR: 22.92 dB
+
+--- Inner region (excluding border = ksize//2) ---
+Max abs error (inner): 142.902494
+MSE (inner): 271.475508
+PSNR (inner): 23.79 dB
